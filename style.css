@@ -1,0 +1,124 @@
+body{
+	background-color:orchid;
+}
+.container li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	font-size: 25px;
+    margin: 5px;
+    padding: right 30px;
+}
+.logo img{
+	width: 5%;
+	height: 5%;
+	float: left;
+	border-radius: 15px;
+}
+.container{
+	clear: both;
+	overflow: auto;
+}
+.container ul li{
+	display: inline;
+	padding: 10px;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+nav{
+	float:right;
+	margin-top: 4px;
+	padding: 10px;
+}
+nav a {
+	text-decoration: none;
+	color: blueviolet;
+}
+nav ul li a:hover{
+	color: greenyellow;
+
+}
+.center{
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+}
+#Home {
+	font-family: 'Comfortaa', cursive;
+	text-align: justify;
+	margin: 20px;
+	background-color: floralwhite;
+	border-style: dotted;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+
+
+#Differences {
+	font-family: 'Comfortaa', cursive;
+	text-align: justify;
+	margin: 20px;
+	background-color: lightpink;
+	border-style: solid;
+	border-radius: 15px;
+	padding: 15px;
+}
+#Start {
+	font-family: 'Comfortaa', cursive;
+	text-align: justify;
+	margin: 20px;
+	background-color: lightgreen;
+	border-style: double;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+
+#Impact {
+	font-family: 'Comfortaa', cursive;
+	text-align: justify;
+	margin: 20px;
+	background-color:#fff1c991	;
+	border-style: groove;
+	border-radius: 15px;
+	padding: 15px;
+}
+#People {
+	font-family: 'Comfortaa', cursive;
+	text-align: justify;
+	margin: 20px;
+	background-color:lightskyblue;
+	border-style: outset;
+	border-radius: 15px;
+	padding: 15px;
+}
+table {
+	
+	border-collapse: collapse;
+	width:100%;
+}
+
+table, td, th{
+	border: 2px solid black;
+}
+th{
+	text-align: center;
+	background-color: blue;
+	color:lightblue	;
+}
+
+td{
+	text-align:center;
+	border-spacing:10px;
+	background-color:#c9fffaff;
+}
+
+#People li {
+  display: list-item;
+  list-style-position: inside;
+}
+
+#People ol li {
+    list-style: decimal;
+}
